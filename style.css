@@ -158,13 +158,17 @@ p{
     margin-top: 20px;
 }
 
+.aboutMe{
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
 .aboutLeft{
     width: 40%;
     display: inline-block;
     padding-left: 30px;
     box-sizing: border-box;
     background-color: rgb(254, 238, 241);
-    background-size: 8% 100%;
+    background-size: 80% 100%;
     padding-top: 40px;
 
 }
@@ -172,15 +176,32 @@ p{
     width: 100%;
     height: 250px;
     object-fit: cover;
-
+    
+    
+}
+.aboutLeft p{
+    font-size: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding: 10px 0;
 }
 .aboutRight{
     display: inline-block;
     width: 60%;
+    padding-left: 20px;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    vertical-align: top;
+    
 }
 .aboutRight img{
     width: 40%;
+    padding-top: 40px;
 }
-.aboutMe{
-    margin-top: 40px;
+.aboutRight p{
+    font-size: 10px;
 }
+.aboutRight h2{
+    padding: 10px 0;
+    margin: 0;
+}
+
